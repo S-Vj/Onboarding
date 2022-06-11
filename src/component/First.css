@@ -1,0 +1,98 @@
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.logo {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+}
+.logo img {
+  width: 2rem;
+  padding-right: 0.5rem;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+}
+.head {
+  text-align: center;
+  padding-top: 2rem;
+}
+
+.sub {
+  text-align: center;
+  color: gray;
+  margin-top: -0.15rem;
+  font-size: smaller;
+  font-weight: 400;
+}
+input {
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid rgb(213, 212, 212);
+  border-radius: 5px;
+}
+label {
+  margin-top: 0.5rem;
+  font-weight: 600;
+}
+.btn {
+  padding: 0.75rem;
+  background-color: #644ce4;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  width: 100rem;
+}
+
+.butn {
+  display: flex;
+  justify-content: space-between;
+  margin-left: auto;
+}
+
+.card {
+  width: 12rem;
+  height: 10rem;
+
+  padding: 0;
+  text-align: left;
+}
+.butn1,
+.butn2 {
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.card :hover {
+  border-color: #644ce4;
+}
+.complete {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.success {
+  height: 70px;
+  width: 70px;
+  padding-top: 3rem;
+}
+
+.sidebar {
+  padding: 0.75rem;
+  margin-bottom: 0.75rem;
+  margin-top: 0.5rem;
+  border: 1px solid rgb(213, 212, 212);
+  border-radius: 5px;
+  height: auto;
+  color: gray;
+  font-size: smaller;
+}
